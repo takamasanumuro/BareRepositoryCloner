@@ -5,3 +5,8 @@ being used as a central hub for all the individual worktrees. This is to prevent
 which would lead to individual version control for each folder. This would not be optimal as those repositories
 would not be synchronized with each other, hence the solution.
 
+To use it grab the script and place it on any folder that is contained within the PATH environment of your operation system
+or create a new directory and insert it into the environment variables. Then call the script by using:
+
+git-bare-clone-windows [REPOSITORY-URL] [OPTIONAL-FOLDER-NAME]
+git-bare-clone-linux [REPOSITORY-URL] [OPTIONAL-FOLDER-NAME]
