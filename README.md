@@ -9,4 +9,5 @@ To use it grab the script and place it on any folder that is contained within th
 or create a new directory and insert it into the environment variables. Then call the script by using:
 
 git-clone-bare-worktrees.ps1 [REPOSITORY-URL] [OPTIONAL-FOLDER-NAME]
+
 git-clone-bare-worktrees.sh [REPOSITORY-URL] [OPTIONAL-FOLDER-NAME]
