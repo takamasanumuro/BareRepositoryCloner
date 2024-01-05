@@ -9,8 +9,8 @@ Set-StrictMode -Version Latest
 # git-clone-bare-for-worktrees.ps1 git@github.com:name/repo.git
 # => Clones to a .\repo directory
 #
-# git-clone-bare-for-worktrees.ps1 git@github.com:name/repo.git my-repo
-# => Clones to a .\my-repo directory
+# git-clone-bare-for-worktrees.ps1 git@github.com:name/repo.git my-custom-foldername
+# => Clones to a .\my-custom-foldername directory
 
 if (-not $folderName) {
     $basename = [System.IO.Path]::GetFileNameWithoutExtension($remoteURL)
